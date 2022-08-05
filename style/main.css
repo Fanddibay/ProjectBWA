@@ -1,0 +1,47 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.mx-6 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.my-6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ml-6 {
+  margin-left: 140px;
+}
+
+.text-btn {
+  padding: 16px 28px;
+}
+
+.text-decoration-underline-cs {
+  text-decoration: 3.5px underline #5a4fcf;
+}
+
+.hv-opacity:hover {
+  background-color: #5a4fcf;
+  color: #5a4fcf;
+  opacity: 1;
+  animation-duration: 2s;
+  transition: 1s;
+  transition-duration: 0.9s;
+}
+
+.hero-1 {
+  width: 1400px;
+  height: 600px;
+}
+
+.hero-2 {
+  height: 600px;
+}
+
+.p-hero {
+  padding: 24px 148px 24px 24px;
+}

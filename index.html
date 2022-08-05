@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <!-- style css -->
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="stylesheet" href="style/main.css" />
+    <link rel="stylesheet" href="node_modules/remixicon/fonts/remixicon.css" />
+    <!-- link js -->
+    <script src="main.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <div class="mx-6 my-6">
+      <nav class="navbar navbar-expand-lg fs-5 fw-normal row">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse col-2" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-decoration-underline-cs" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Category
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Service</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Us</a>
+              </li>
+            </ul>
+            <div class="text-center align-items-center align-content-center align-self-center col-6">
+              <img src="img/Home.svg" alt="" />
+              <h5 class="fw-bold">Resto</h5>
+            </div>
+            <form class="d-flex w-25 col-4" role="search">
+              <i class="ri-mute text-muted ms-2 ri-lg ri-search-line position-absolute mt-2"></i>
+              <input
+                class="form-control me-2 text-center"
+                type="search"
+                placeholder="Search your favorite food"
+                aria-label="Search"
+              />
+              <button href="#" class="btn bg-indigo rounded-3 bg-opacity-25 hv-opacity" type="submit">
+                <span class="text-indigo text-btn">Login</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- end navbar -->
+    <!-- hero -->
+    <div class="ml-6">
+      <div class="row w-100">
+        <div class="col">
+          <img src="img/hero-1.png" class="rounded-2 hero-1" alt="" />
+          <div class="position-absolute top-50 rounded-3 start-15 pt-4 translate-middle bg-white">
+            <div class="p-hero">
+              <div class="d-flex">
+                <i class="ri-yellow ri-sm ri-star-fill"></i>
+                <i class="ri-yellow ri-sm ri-star-fill"></i>
+                <i class="ri-yellow ri-sm ri-star-fill"></i>
+                <i class="ri-yellow ri-sm ri-star-fill"></i>
+                <i class="ri-yellow ri-sm ri-star-fill"></i>
+                <p class="mx-1 text-warning fw-bold">5.0</p>
+                <p class="text-muted fw-light">(5.2k+)</p>
+              </div>
+              <h4 class="fw-bold text-black">Padang Restaurant</h4>
+              <h5 class="fw-normal text-muted">IDR 49.999 - IDR 560.000</h5>
+              <div class="d-flex">
+                <i class="ri-muted ri-sm ri-map-pin-2-fill"></i>
+                <p class="text-muted text-light ms-1">Padang, Indonesia</p>
+              </div>
+              <button class="btn btn-primary rounded py-3 px-4 fw-bold text-black mt-4 mb-2">Make Reservation ></button>
+              <div class="d-flex">
+                <img src="/img/square.svg" class="text-muted" alt="" />
+                <p class="ms-2 text-muted fw-normal mt-3">No Extra Cost</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <img src="img/hero-2.png" class="rounded-start rounded-bottom hero-2 position-absolute end-0" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- end hero -->
+  </body>
+</html>

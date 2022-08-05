@@ -1,0 +1,25 @@
+// @import "node_modules/bootstrap/scss/functions";
+// @import "node_modules/bootstrap/scss/variables";
+// @import "node_modules/bootstrap/scss/utilities";
+
+$theme-colors: (
+  "primary": #fdc886,
+  "secondary": #5a4fcf,
+  "danger": #232631,
+  "indigo": #5a4fcf,
+  "muted": #858585,
+  "warning": #ffb800,
+  "black": #232631,
+);
+
+$position-values: (
+  0: 0,
+  10: 10%,
+  15: 15%,
+  50: 50%,
+  100: 100%,
+);
+
+$font-weight-normal: 500;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
