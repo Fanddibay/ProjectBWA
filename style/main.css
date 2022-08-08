@@ -1,19 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
-}
-
-.mx-6 {
-  margin-left: 60px;
-  margin-right: 60px;
-}
-
-.my-6 {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.ml-6 {
-  margin-left: 140px;
+  background-color: #fafafa;
 }
 
 .text-btn {
@@ -42,6 +29,116 @@ body {
   height: 600px;
 }
 
+/* padding custom */
 .p-hero {
   padding: 24px 148px 24px 24px;
+}
+
+.p-near {
+  padding: 2px 14px;
+}
+
+.p-near-2 {
+  padding: 0 85px;
+}
+
+.near-img {
+  width: 535px;
+  height: 415px;
+}
+
+/* margin custom */
+
+/* margin top custom */
+.mtc-1 {
+  margin-top: 20px;
+}
+
+.mtc-2 {
+  margin-top: 40px;
+}
+
+.mtc-3 {
+  margin-top: 60px;
+}
+
+.mtc-4 {
+  margin-top: 80px;
+}
+
+.mtc-5 {
+  margin-top: 100px;
+}
+
+.mtc-6 {
+  margin-top: 120px;
+}
+
+.-mtc-1 {
+  margin-top: -20px;
+}
+/* end margin top custom */
+/* margin left custom */
+.msc-1 {
+  margin-left: 120px;
+}
+
+.msc-2 {
+  margin-left: 80px;
+}
+
+.msc-3 {
+  margin-left: 95px;
+}
+
+.mx-6 {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.my-6 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.ml-6 {
+  margin-left: 140px;
+}
+/* end margin custom */
+
+/* font custom */
+.text-justify {
+  text-align: justify;
+}
+
+.fsc-1 {
+  font-size: 8px;
+}
+
+.fsc-2 {
+  font-size: 16px;
+}
+
+.fsc-3m {
+  font-size: 18px;
+}
+
+.fsc-3 {
+  font-size: 28px;
+}
+
+.fsc-4 {
+  font-size: 32px;
+}
+
+.ls-1 {
+  word-spacing: 2px;
+}
+
+.ls-2 {
+  word-spacing: 4px;
+}
+
+.ls-3 {
+  word-spacing: 12px;
 }
